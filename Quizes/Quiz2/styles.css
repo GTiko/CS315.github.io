@@ -1,0 +1,32 @@
+#head{
+    text-align: center;
+    border: solid blue 1px;
+    padding: 10px;
+}
+#line1{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#par1{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: solid white 2px;
+    width: 300px;
+}
+#par2 , #par3{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: solid white 2px;
+    width: 300px;
+}
+#login{
+    float: right;
+    margin-right: 10px;
+    clear: both;
+    border: solid lightskyblue 2px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: lightskyblue;
+}

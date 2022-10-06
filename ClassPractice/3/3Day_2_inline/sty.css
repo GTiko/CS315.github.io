@@ -1,0 +1,18 @@
+label{
+
+    border: solid gray 1px;
+    background-color: lightcyan;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#last{
+    float: right;
+    border: solid gray 1px;
+    background-color: lightcyan;
+    border-radius: 5px;
+    padding: 5px;
+} 
+bord{
+    border: solid gray 1px;
+}

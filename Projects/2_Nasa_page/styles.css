@@ -1,0 +1,40 @@
+html{
+    background-image: url("https://th.bing.com/th/id/R.d868bc1b62bdfdd196e445a0cb4bda89?rik=2%2bFIbxIWsZdMxg&riu=http%3a%2f%2fpavbca.com%2fwalldb%2foriginal%2f9%2f3%2f8%2f260528.jpg&ehk=FZCcC90drRZdsz5Il0TI%2f38PzfV1NG9CSh7skAdXQeM%3d&risl=&pid=ImgRaw&r=0");
+}
+
+header{
+    text-align: center;
+    font: small-caption;
+}
+label{
+    color: azure;
+    margin: 10px;
+}
+logo{
+    margin-left: 30px;
+}
+
+elements{
+ background-color: gray;
+ font: small-caption;
+ text-align: center;
+ padding: 10px;
+ margin-top: 10px;
+}
+rocket img{
+    margin-top: 20px;
+    margin-left: 20px;
+    image-rendering: auto;
+}
+astron img{
+    float: right;
+    margin-right: 370px;
+    margin-top: 20px;
+    height: 200px;
+}
+news img{
+    /* float: right; */
+    margin-right: 30px;
+    margin-top: 20px;
+    height: 100px;
+}

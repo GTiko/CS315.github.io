@@ -1,0 +1,126 @@
+
+body{
+    background-color:#0179BE;
+}
+
+#topGreen{
+    border: #72B00D solid 5px;
+    background-color: #72B00D;
+    height: 5px;
+}
+
+#image{
+    background-color: white;
+    padding: 10px;
+    width: 150px;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    float: left;
+}
+
+#head{
+    margin-top: 70px;
+    color: white;
+    font-size: 50px;
+    font-family:  Geneva, Verdana, sans-serif;
+}
+
+#login a{    
+    font-family:  Geneva, Verdana, sans-serif;
+    float: right;
+    margin-top: 80px;
+    margin-right: 100px;
+    font-size: 20px;
+    background-color: rgb(25, 167, 25);
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+#mainBody{
+    margin-top: 20px;
+    background-color: white;
+    min-height:450px;
+}
+
+#faculty{
+    border: solid #0F4078 1px;
+    width: 400px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#student,#admin{
+    border: solid #0F4078 1px;
+    width: 400px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#resource{
+    font-size: large;
+    margin-bottom: 10px;
+    font-family:  Geneva, Verdana, sans-serif;
+}
+
+#saki{
+    min-height: 100px;
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+#category{
+    background-color: rgba(6, 24, 115, 0.852);
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#wlc{
+    margin-top: 10px;
+    text-align: center;
+    font-family:  Geneva, Verdana, sans-serif;
+}
+
+#vision{
+    font-family:  Geneva, Verdana, sans-serif;
+    border: solid white 1px;
+    float: left;
+    width: 40%;
+    margin-left: 10%;
+}
+#tm{
+    font-family:  Geneva, Verdana, sans-serif;
+    border: solid white 1px;
+    float: left;
+    width: 40%;
+}
+#retrieve a{
+    color: aliceblue;
+    border: solid #0179BE 1xp;
+    background-color: #0179BE;
+    padding: 2px;
+    text-decoration: none;
+}
+
+#help{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family:  Geneva, Verdana, sans-serif;
+    text-decoration: none;    
+}
+#help a{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}

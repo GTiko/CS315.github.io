@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    color: white;
+}
+
+
+body p{
+   width: 50%;
+   color: rgb(255, 255, 255);
+}
+
+body{
+    
+   background-image: url("https://ak8.picdn.net/shutterstock/videos/18759818/thumb/1.jpg");
+   background-position: center;
+   background-attachment: scroll;
+}
+article login a{
+    color: white;
+    background-color: black;
+    margin-right: 10px;
+    padding: 5px;
+    float: right;
+    border: solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+article signUp a{
+    color: black;
+    background-color: white;
+    margin-right: 5px;
+    padding: 5px;
+    float: right;
+    border: solid white;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+photoArt a{
+    margin: 30px;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    border:solid silver;
+}
