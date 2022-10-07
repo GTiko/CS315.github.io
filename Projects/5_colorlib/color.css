@@ -1,0 +1,61 @@
+    body{
+        background-color: rgb(17, 12, 12);
+    }
+
+    #outer{
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: 40% 30% 30%;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+
+    article{
+        color: white;
+        font-weight: bold;
+        font-size: large;
+        margin-bottom: 20px;
+    }
+
+    #one,#two,#three{
+        color: rgb(190, 186, 186);
+        margin-left: 80px;
+        margin-right: 100px;
+    }
+
+    #email input{
+        padding: 5px;
+        background-color: rgb(49, 48, 48);
+        border-radius: 20px;
+        color: white;
+        min-width: 300px;
+    }
+    
+    #send{
+        position: sticky;
+        color: white;
+        width: fit-content; 
+        padding: 5px;
+        background-color: orange;
+        border-radius: 20px;
+    }
+
+    #footer{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+    }
+
+    #left_footer{
+        display: flex;
+        gap: 20px;
+        color: white;
+        margin-left: 80px;
+    }
+
+    #right_footer{
+        display: flex;
+        gap: 20px;
+        color: white;
+        margin-right: 110px;
+    }
