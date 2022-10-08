@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Calculatr</title>
+
+    <script src="calculator.js"></script>
+
+</head>
+
+<body>
+    <div id="calculator">
+        <div id="inner">
+            <input type="number" placeholder="number" id="n1">
+
+            <input type="text" placeholder="+,-,x,%" id="op">
+
+            <input type="number" placeholder="number" id="n2"> <br><br>
+        </div>
+
+        <input type="text" placeholder="Result" id="result"> <br> <br>
+
+        <input type="button" onclick="claculate()" value="=" id="equal"> <br><br>
+
+        <input type="button" onclick="wipe()" value="Clear" id="clear">
+    </div>
+
+</body>
+
+</html>

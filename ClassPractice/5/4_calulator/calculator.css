@@ -1,0 +1,41 @@
+#n1,
+#n2 {
+  width: 80px;
+  text-align: center;
+  border-radius: 5px;
+}
+#op {
+  width: 40px;
+  border-radius: 5px;
+  text-align: center;
+}
+#result {
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  width: 213px;
+}
+#equal,
+#clear {
+  padding: 5px;
+  width: 223px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#calculator {
+  background-color: rgb(81, 117, 153);
+  width: fit-content;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 100px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#inner {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 5px;
+  justify-content: space-between;
+}
