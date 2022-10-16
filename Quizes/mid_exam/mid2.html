@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Q2.js"></script>
+    <title>Document</title>
+    <style>
+        #myTable {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div id="ok">hi</div> -->
+    <table id="myTable">
+        <tr>
+            <th>Name</th>
+            <th>Color</th>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>Red</td>
+        </tr>
+        <tr>
+            <td>Gauva</td>
+            <td>green</td>
+        </tr>
+        <tr>
+            <td>Avacado</td>
+            <td>Dark Green</td>
+        </tr>
+        <tr id="last">
+            <td>Grapes</td>
+            <td> Balck </td>
+        </tr>
+    </table>
+    <p>
+        <input id="inputColor" type="text" />
+        <button onclick="changeColor()">Change Color</button><br><br>
+        <input type="button" onclick="addRow()" value=" Add Row">
+    </p>
+</body>
+
+</html>

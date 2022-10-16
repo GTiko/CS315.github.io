@@ -1,0 +1,50 @@
+.one {
+  margin-bottom: 20px;
+}
+#firstContainer {
+  background-color: rgb(201, 236, 236);
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+#obj {
+  border: solid blue 2px;
+  height: 130px;
+  width: 100px;
+}
+#tulips {
+  position: relative;
+  left: 40px;
+  bottom: 40px;
+}
+
+.two {
+  background-color: yellow;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#images {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#imgs {
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+}
+#txt2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 400px;
+}
+
+.three {
+  background-color: palevioletred;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 10px;
+  gap: 30px;
+}

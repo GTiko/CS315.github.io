@@ -1,0 +1,32 @@
+th,
+tr,
+td,
+table {
+  border: solid rgb(119, 119, 232) 1px;
+}
+tr:nth-child(even) {
+  background-color: #341a1a54;
+}
+th {
+  background-color: rgb(77, 77, 238);
+  color: white;
+}
+
+td:hover {
+  background-color: #341a1a54;
+}
+
+#add:hover,
+#sort:hover,
+#iName:hover,
+#iCatagory:hover,
+#iQuantity:hover {
+  background-color: rgb(117, 224, 98);
+}
+
+#add,
+#sort {
+  background-color: greenyellow;
+  border-radius: 5px;
+  border: solid rgb(51, 80, 9) 1px;
+}
