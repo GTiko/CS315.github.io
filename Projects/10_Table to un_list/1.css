@@ -1,0 +1,17 @@
+th,
+tr,
+td,
+table {
+  border: solid rgb(10, 94, 190) 1px;
+  border-radius: 5px;
+}
+
+td:hover,
+button:hover {
+  background-color: rgba(255, 156, 220, 0.555);
+}
+button {
+  border-radius: 5px;
+  background-color: aquamarine;
+  border: solid rgb(45, 100, 82) 1px;
+}
