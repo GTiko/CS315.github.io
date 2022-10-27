@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Best Buy Login</title>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <img src="/FinalProject/Images/Logo/logo.png" alt="" width="100px" style="margin-left:150px;">
+        </div>
+        <a id="head" href="/FinalProject/MainPage/main.html"> Return to home page</a>
+    </nav>
+
+    <!-- Main -->
+    <div class="main">
+        <!-- FIXME: -->
+        <label for="just filling gap" style="color:aliceblue; ;">.</label>
+        <div class="middle">
+            <div class="login">
+                <div style="text-align:center;font-weight: bold;font-family: Helvetica;">Sign In to Best Buy</div>
+                <input type="text" placeholder="Email Address" id="email">
+                <input type="password" placeholder="Password" id="password">
+                <a href="" id="forget" style=" color: #0457c8;">Forget your password?</a>
+                <button id="signIn" onclick="singIn()">Sign in</button>
+                <div style="display:flex; gap: 5px;">
+                    <input type="checkbox">
+                    <div style="font-size:15px;"> keep me signed in.</div>
+                </div>
+                <div style="display:flex ; flex-wrap: wrap; gap:5px; align-items: center;justify-content: center;">
+                    <hr style="width: 100px;  ;border: solid rgb(202, 220, 235) 1px;">
+                    <label><b>or</b></label>
+                    <hr style="width: 100px;  ;border: solid rgb(202, 220, 235) 1px;">
+                </div>
+                <div>
+                    <div style="display:flex; flex-wrap: wrap;">
+                        <button id="otherSignIn" onclick="singIn()">Sing in with WebAuthn</button>
+                        <iconify-icon icon="fa-solid:fingerprint" id="finger" style="width:20px ;"></iconify-icon>
+                    </div>
+                    <div style="display:flex; flex-wrap: wrap;">
+                        <button id="apple" onclick="singIn()">Sing in with Apple</button>
+                        <img src="/FinalProject/Images/Logo/apple.png" width="20px" id="appleImg1">
+                        <img src="/FinalProject/Images/Logo/apple2.png" width="14px" id="appleImg">
+                    </div>
+                    <div>
+                        <button id="otherSignIn" onclick="singIn()">Sing in with Google</button>
+                        <img src="/FinalProject/Images/Logo/google.png" width="20px" id="googleImg">
+                    </div>
+                    <div style="font-size: 10px;">
+                        By continuing you agree to our <a id="privacy"
+                            href="https://www.bestbuy.com/site/help-topics/terms-and-conditions/pcmcat204400050067.c?id=pcmcat204400050067">Terms
+                            and conditions</a>
+                        our <a id="privacy"
+                            href="https://www.bestbuy.com/site/help-topics/privacy-policy/pcmcat204400050062.c?id=pcmcat204400050062">privacy
+                            policy</a> and the
+                        <a id="privacy"
+                            href="https://www.bestbuy.com/site/my-best-buy/my-best-buy-program-rules/pcmcat311100050001.c?id=pcmcat311100050001">My
+                            Best Buy<sup>®</sup> Program Terms</a>
+                    </div>
+                </div>
+                <labe><hr style="margin-top:10px;margin-bottom:10px; border: solid rgb(202, 220, 235) 1px;"></label>
+                <div style="font-size: 11px;">
+                    <b> Do you have account?</b><a id="privacy" href="/FinalProject/SignUp/signUp.html"> Create an account</a>
+                </div>
+            </div>
+        </div>
+        <hr style="margin-top: 80px;border: solid rgb(202, 220, 235) 1px;">
+    </div>
+
+    <div class="footer">
+        <div id="footerPrivacy">
+            <div>
+                <a id="privacy"
+                    href="https://www.bestbuy.com/site/help-topics/terms-and-conditions/pcmcat204400050067.c?id=pcmcat204400050067">Terms
+                    and conditions | </a>
+            </div>
+            <div>
+                <a id="privacy"
+                    href="https://www.bestbuy.com/site/help-topics/privacy-policy/pcmcat204400050062.c?id=pcmcat204400050062">privacy
+                    policy | </a>
+            </div>
+            <div>
+                <a id="privacy"
+                    href="https://www.bestbuy.com/site/privacy-policy/interest-based-ads/pcmcat204400050066.c?id=pcmcat204400050066">
+                    interest-based-ads
+                </a>
+            </div>
+        </div>
+        <div id="footerMid">
+            <a id="privacy"
+                href="https://www.bestbuy.com/identity/signin?token=tid%3A6c3af950-50ff-11ed-a34b-06da3b316ba3">Mobile
+                site</a>
+        </div>
+        <label style="margin-left: 10%;max-width: 60%; margin-top: 5px; font-size: 13px;"><center>
+            Prices and offers are subject to change. © 2022 Best Buy. All rights reserved. BEST BUY, the BEST BUY logo,
+            the Tag Design, MY BEST BUY, and BESTBUY.COM are trademarks of Best Buy and its affiliated companies.
+        </center></label>
+    </div>
+</body>
+<script src="login.js"></script>
+<script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+
+</html>

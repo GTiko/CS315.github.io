@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="customer.css">
+    <title>customer</title>
+</head>
+
+<body>
+    <nav>
+        <div class="leftHeader">
+            <div class="bestbuy">
+                <a href="/FinalProject/MainPage/main.html"><img src="/FinalProject/Images/Logo/logo.png" alt="" width="150px"></a>
+            </div>
+            <div class="menu">
+                <select>
+                    <option value="menu">Departments</option>
+                    <option value="phone">Phones</option>
+                    <option value="laptop">Laptops</option>
+                    <option value="headphone">Headphones</option>
+                    <option value="glass">Glass</option>
+                </select>
+            </div>
+
+            <div>
+                <input type="text" id="searchItem" style="width:1000px;border-radius:5px; padding:5px;font-size: 30px;">
+                <button id="searchBtn" style="padding:10px;">Search</button>
+            </div>
+        </div>
+
+        <div class="rightHeader" style="display: flex; gap:20px; align-items: center; ">
+
+            <a href="/FinalProject/Login/Login.html" style="text-decoration: none;color: #fff;">
+
+                <a href="/FinalProject/Login/Login.html" style="text-decoration: none;color: #fff;">
+                    <div style="font-size: 25px;">Sign Out</div>
+                </a>
+            </a>
+        </div>
+    </nav>
+
+    <!-- MAIN BODY: -->
+
+
+    <div class="main">
+
+        <div class="middle">
+
+            <div class="leftBox">
+                <div>
+                    <div class="filter">
+                        <div>
+                            <h1> Sort by:</h1>
+                        </div>
+                        <div id="filterBy">
+                            
+                            <a href="#" id="lowToHight">Low to hight</a>
+                            <a href="#" id="hightToLow">Hight to Low</a>
+                            <a href="#" id="byRating">Rating</a>
+                            <a href="#" id="clearFilter">Clear Filter</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="Rating">
+                    <div>
+                        <h1>Customer Rating</h1>
+                    </div>
+                    <a href="#">
+                        <div id="review5">
+                            <span class='fa fa-star checked' style='color:orange'></span>
+                            <span class='fa fa-star checked' style='color:orange'></span>
+                            <span class='fa fa-star checked' style='color:orange'></span>
+                            <span class='fa fa-star checked' style='color:orange'></span>
+                            <span class='fa fa-star checked' style='color:orange'></span>
+                            5 (5)
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div id="review4">
+                            <span class='fa fa-star checked' style='color:orange'></span>
+                            <span class='fa fa-star checked' style='color:orange'></span>
+                            <span class='fa fa-star checked' style='color:orange'></span>
+                            <span class='fa fa-star checked' style='color:orange'></span>
+                            <span class='fa fa-star checked' style='color:black'></span>
+                            4 & Up <label id="random"></label>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div id="review3">
+                            <span class='fa fa-star checked' style='color:orange'></span>
+                            <span class='fa fa-star checked' style='color:orange'></span>
+                            <span class='fa fa-star checked' style='color:orange'></span>
+                            <span class='fa fa-star checked' style='color:black'></span>
+                            <span class='fa fa-star checked' style='color:black'></span>
+                            3 & Up <label id="random"></label>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div id="review2">
+                            <span class='fa fa-star checked' style='color:orange'></span>
+                            <span class='fa fa-star checked' style='color:orange'></span>
+                            <span class='fa fa-star checked' style='color:black'></span>
+                            <span class='fa fa-star checked' style='color:black'></span>
+                            <span class='fa fa-star checked' style='color:black'></span>
+                            2 & Up <label id="random"></label>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div id="review1">
+                            <span class='fa fa-star checked' style='color:orange'></span>
+                            <span class='fa fa-star checked' style='color:black'></span>
+                            <span class='fa fa-star checked' style='color:black'></span>
+                            <span class='fa fa-star checked' style='color:black'></span>
+                            <span class='fa fa-star checked' style='color:black'></span>
+                            1 & Up <label id="random"></label>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="product"></div>
+            <!-- IMPLEMENTATION COMES HERE: -->
+
+        </div>
+    </div>
+</body>
+<script src="customer.js"></script>
+
+</html>

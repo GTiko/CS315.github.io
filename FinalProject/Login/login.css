@@ -1,0 +1,154 @@
+* {
+  margin: 0px;
+  font-family: "Helvetica";
+}
+
+#head{
+  color: white;
+  text-decoration: none;
+  padding: 25px;
+  font-size: large  ;
+  margin-right:150px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0046be;
+  color: #fff;
+  font-family: "Helvetica";
+  font-size: 13px;
+  padding-bottom: 5px;
+}
+.main {
+  background-color: aliceblue;
+}
+.middle {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  padding: 20px;
+}
+.login {
+  margin: top 10px;;
+  font-size: larger;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  display: grid;
+  gap: 10px;
+  width: 260px;
+  box-shadow: 0 0 20px 2px rgb(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 5px;
+  border-radius: 3px;
+  border: solid 2px;
+}
+input[type="text"]:hover,
+input[type="password"]:hover {
+  border: solid #0046be 2px;
+}
+#forget,
+#passMsg,
+#eMsg {
+  text-decoration: none;
+  font-size: 15px;
+  position: relative;
+  bottom: 8px;
+}
+
+#forget:hover,
+#privacy:hover {
+  text-decoration: underline;
+  color: #0046be;
+}
+#privacy {
+  text-decoration: none;
+  color: #0046be;
+}
+#signIn {
+  background-color: #0046be;
+  border-radius: 4px;
+  border: none;
+  padding: 7px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
+#signIn:hover,
+#otherSignIn:hover {
+  background-color: rgb(0, 3, 151);
+  color: #fff;
+}
+#otherSignIn {
+  background-color: #fff;
+  border-radius: 4px;
+  border: solid #0046be 1px;
+  padding: 7px;
+  color: #0046be;
+  font-size: 13px;
+  width: 250px;
+  font-weight: bold;
+}
+#finger,
+#googleImg {
+  position: relative;
+  bottom: 23px;
+  left: 30px;
+}
+#appleImg {
+  position: relative;
+  bottom: 25px;
+  left: 10px;
+}
+#appleImg1 {
+  position: relative;
+  bottom: 25px;
+  left: 15px;
+}
+#apple {
+  background-color: #fff;
+  border-radius: 4px;
+  border: solid black 1px;
+  padding: 7px;
+  color: black;
+  font-size: 14px;
+  width: 250px;
+  font-weight: bold;
+}
+#apple:hover {
+  color: #fff;
+  background-color: black;
+}
+
+#privacy:hover {
+  text-decoration: underline;
+  color: #0046be;
+}
+#privacy{
+  text-decoration: none;
+  color: #0046be;
+  font-size: 12px;
+}
+
+.footer{
+  padding: 5px;
+  margin: 5px;
+}
+#footerPrivacy{
+
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  
+}
+#footerMid{
+  padding: 5px;
+  margin-left: 48%;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inventory.css">
+    <title>Best Buy Inventory</title>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <img src="/Images/Logo/logo.png" alt="" width="100px" style="margin-left:150px;">
+        </div>
+        <a id="head" href="/MainPage/main.html"> Return to home page</a>
+    </nav>
+    <div class="main">
+        <!-- FIXME: -->
+        <label style="color:aliceblue;">.</label>
+        <div class="middle">
+            <div class="login">
+                
+            <h1 style="background-color:#5287e4; color: white; padding:21px;"><center><b>INVENTORY</b></center></h1><br>
+            <div>
+            <p>
+                Item Name<br>
+                <input type="text" value="" id="itemName" placeholder="Item's Name, Brand, Specification"/><br><br>
+            </p>
+            <p>
+                Item Category<br>
+                <select id="category">
+                <option value="glass" selected disabled>Select...</option>
+                <option value="glass">Glass</option>
+                <option value="laptop">Laptop</option>
+                <option value="phone">Phone</option>
+                <option value="headphone">HeadPhone</option>
+                <option value="ipad">Ipad</option>
+                <option value="ipad">Other</option>
+                </select><br><br>
+            </p>
+              
+            <p>
+                Unit Price<br>
+                <input type="number" id="price" placeholder="Enter Price"><br><br>
+            </p>
+              
+            <p>
+                Item Rate<br>
+                <select id="selRate">
+                <option value="0" selected disabled>Select...</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                </select><br><br>
+            </p>
+              
+            <p>
+                Image<br>
+                <input type="file" id="image" placeholder="upload Image"><br><br>
+            </p>
+
+            <p>
+                Quantity<br>
+                <input type="number" value="" id="quantity" placeholder="Enter Quantity"><br><br>
+            </p>
+              
+            <label id="mode" hidden></label>
+            <p style="display:flex; justify-content:center;gap: 150px;">
+                <input type="submit" value="Filter" onclick="filter()" id="subBut" />
+                <input type="submit" value="Add" class="addButton" onclick="add()" id="subBut" />
+                <input type="submit" value="Clear Filter" onclick="clearFilter()" id="subBut" /><br />
+            </p>
+                
+            </div>
+            <table id="items">
+                  <tr>
+                    <th>Product Name</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th>Rating</th>
+                    <th>Image</th>
+                    <th>Quantity</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                  </tr>
+            </table>
+              
+
+            </div>
+        </div>
+        <hr style="border: solid rgb(202, 220, 235) 1px;margin-top: 80px;">
+    </div>
+
+    <div class="footer">
+        <div id="footerPrivacy">
+            <div>
+                <a id="privacy"
+                    href="https://www.bestbuy.com/site/help-topics/terms-and-conditions/pcmcat204400050067.c?id=pcmcat204400050067">Terms
+                    and conditions | </a>
+            </div>
+            <div>
+                <a id="privacy"
+                    href="https://www.bestbuy.com/site/help-topics/privacy-policy/pcmcat204400050062.c?id=pcmcat204400050062">privacy
+                    policy | </a>
+            </div>
+            <div>
+                <a id="privacy"
+                    href="https://www.bestbuy.com/site/privacy-policy/interest-based-ads/pcmcat204400050066.c?id=pcmcat204400050066">
+                    interest-based-ads
+                </a>
+            </div>
+        </div>
+        <div id="footerMid">
+            <a id="privacy"
+                href="https://www.bestbuy.com/identity/signin?token=tid%3A6c3af950-50ff-11ed-a34b-06da3b316ba3">Mobile
+                site</a>
+        </div>
+        <label style="margin-left: 10%;max-width: 60%; margin-top: 5px; font-size: 15px;"><center>
+            Prices and offers are subject to change. © 2022 Best Buy. All rights reserved. BEST BUY, the BEST BUY logo,
+            the Tag Design, MY BEST BUY, and BESTBUY.COM are trademarks of Best Buy and its affiliated companies.
+        </center></label>
+    </div>
+</body>
+<script src="inventory.js"></script>
+<script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+
+</html>

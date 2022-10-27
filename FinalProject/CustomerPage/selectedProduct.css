@@ -1,0 +1,34 @@
+body{
+    background-color: aliceblue;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0046be;
+    color: #fff;
+    font-family: "Helvetica";
+    font-size: 13px;
+    padding-bottom: 5px;
+  }
+.container img {
+  width: 100%;
+  object-fit: cover;
+}
+.container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    margin-top: 100px;
+    gap: 100px;
+    align-items: center;
+}
+#btn{
+    width: fit-content;
+    height: fit-content;
+    font-size: 30px;
+    border: none;
+    color: #fff;
+    background-color: #0046be;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}

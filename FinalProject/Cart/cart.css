@@ -1,0 +1,107 @@
+body {
+  background-color: aliceblue;
+  font-size: 15px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0046be;
+    align-items: center;
+  }
+
+.main {
+  display: grid;
+  justify-content: center;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.outer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 0.5fr;
+  gap: 20px;
+  background-color: #fff;
+  padding: 50px;
+  box-shadow: 0 0 20px 2px rgb(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #0046be;
+  font-size: 15px;
+}
+a:hover {
+  text-decoration: underline;
+}
+#radios {
+  font-weight: bolder;
+  margin-left: 5px;
+}
+#parkLane {
+  color: #0046be;
+}
+#optionContainer {
+  margin-left: 30%;
+}
+select,
+option {
+  width: 100px;
+  height: 60px;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+}
+#save {
+  color: #fff;
+  background-color: #bb0628;
+  width: fit-content;
+  padding: 3px;
+  font-weight: bolder;
+}
+
+
+#addedImg {
+  width: 200px;
+  object-fit: cover;
+}
+.proceedToCheckOut {
+  width: 500px;
+  margin-left: 50px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color:#fff;
+  font-size: 20px;
+}
+.chOuBox{
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+}
+#right{
+    float: right;
+}
+#checkOut{
+display: grid;
+justify-content: center;
+margin-top: 10px;
+}
+#checkOutBtn{
+padding: 10px;
+background-color: #ffe000;
+border: none;
+font-weight: bolder;
+width: 350px;
+}
+#total{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.counter {
+  color: yellow;
+  font-size: 40px;
+  position: absolute;
+  right: 250px;
+  top: 20px;
+}

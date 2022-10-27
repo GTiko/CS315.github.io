@@ -1,0 +1,151 @@
+th,tr{
+      background-color: antiquewhite;
+      border: solid black 1px;
+      padding: 10px;
+      width:1700px;
+  }
+
+th{
+    font-size: larger;
+    color: white;
+    background-color:#5287e4;
+    border: solid black 1px;
+    padding: 10px;
+    width:1700px;
+}
+td {
+    padding: 10px;
+    margin-left: 10px;
+    border-style: ridge;
+  }
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Helvetica";
+  }
+  #head{
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    font-size: large  ;
+    margin-right:150px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0046be;
+    color: #fff;
+    font-family: "Helvetica";
+    font-size: 13px;
+    padding-bottom: 5px;
+  }
+
+  .main{
+    background-color: aliceblue;
+  }
+
+  .middle {
+    margin-top: 20px;
+    margin-left: 15px;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+
+  .login {
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    gap: 7px;
+    width: 1700px;
+  }
+  
+
+ #subBut{
+  color: white;
+  font-weight: bolder;
+  background-color:#5287e4;
+  font-size: medium;
+  width: 150px;
+  padding: 10px;
+}
+
+#editbutton, #deletebutton{
+  color: white;
+  background-color:#5287e4;
+  font-size: medium;
+  width: 100px;
+  height: 35px;
+}
+
+#image{
+  /* color: dimgray; */
+  font-size: medium;
+  /* font-weight: bold; */
+  width: 1680px;
+  padding: 10px;
+  border-radius: 3px;
+  border: solid 1.5px;
+}
+
+#category, #selRate{
+    /* color: dimgray; */
+    font-size: medium;
+    /* font-weight: bold; */
+    width: 1700px;
+    padding: 10px;
+    border-radius: 3px;
+    border: solid 1.5px;
+  }
+
+  input[type="text"],
+  input[type="number"]{
+    font-size: medium;
+    font-weight: bold;
+    width: 1680px;
+    padding: 10px;
+    border-radius: 3px;
+    border: solid 1.5px;
+  }
+  input[type="text"]:hover,
+  input[type="number"]:hover,
+  #selRate:hover,
+  #image:hover,
+  #category:hover{
+    color: white;
+    border: solid #0300be 1.5px;
+    background-color:#5287e4;
+  }
+  #privacy:hover {
+    text-decoration: underline;
+    color: #0046be;
+  }
+  #privacy{
+    font-size: 15px;
+    text-decoration: none;
+    color: #0046be;
+  }
+  
+  .footer{
+    padding: 5px;
+    margin: 5px;
+  }
+  #footerPrivacy{
+
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    /* margin-left:38%; */
+  }
+  #footerMid{
+    padding: 5px;
+    margin-left: 48%;
+  }
