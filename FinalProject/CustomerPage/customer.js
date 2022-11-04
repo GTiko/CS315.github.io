@@ -20,7 +20,7 @@ let originalArr = [
     title: "Apple iPad Mini 2 16GB with Retina Display Wi-Fi Tablet",
     rating: Math.floor(Math.random() * 5)+1,
     price: 299.99,
-    image: "ipads/ipad1.png",
+    image: "Laptop/lap6.jpg",
     category: "ipad",
     quantity: Math.floor(Math.random() * 10)+1,
   },
