@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swap</title>
+</head>
+
+<body>
+    <div style="display: flex; gap: 10px;">
+        <div><img id="car" src="car.jpg" alt="" width=200px></div>
+        <div><img id="minion" src="minion.png" alt="" width=200px></div>
+    </div>
+    <button onclick="swap()">Swap</button>
+</body>
+<script>
+    function swap() {
+        // document.getElementById("car").src = "minion.png";
+        // document.getElementById("minion").src = "car.jpg";
+
+        if (document.getElementById("car").src == 'http://127.0.0.1:5500/Lab5/car.jpg' &&
+            document.getElementById("minion").src == 'http://127.0.0.1:5500/Lab5/minion.png') {
+            document.getElementById("car").src = "minion.png";
+            document.getElementById("minion").src = "car.jpg";
+        } else {
+            document.getElementById("car").src = "car.jpg";
+            document.getElementById("minion").src = "minion.png";
+        }
+    }
+</script>
+
+</html>
