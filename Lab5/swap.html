@@ -10,26 +10,23 @@
 
 <body>
     <div style="display: flex; gap: 10px;">
-        <div><img id="car" src="car.jpg" alt="" width=200px></div>
-        <div><img id="minion" src="minion.png" alt="" width=200px></div>
+        <div><img id="tom" src="https://i.pinimg.com/originals/07/12/41/071241378aaaffe6fc66d60613eeabe2.jpg" alt=""
+                width=200px></div>
+        <div><img id="jerry" src="https://i.pinimg.com/736x/0d/33/db/0d33db1f7c3846f231a99a7fec18dcca.jpg" alt=""
+                width=200px></div>
     </div>
     <button onclick="swap()">Swap</button>
 </body>
 <script>
     function swap() {
-        // document.getElementById("car").src = "minion.png";
-        // document.getElementById("minion").src = "car.jpg";
 
-        console.log(`cas: ` + document.getElementById("car"))
-        console.log(`minion` + document.getElementById("minion"))
-
-        if (document.getElementById("car").src == 'http://127.0.0.1:5500/Lab5/car.jpg' &&
-            document.getElementById("minion").src == 'http://127.0.0.1:5500/Lab5/minion.png') {
-            document.getElementById("car").src = "minion.png";
-            document.getElementById("minion").src = "car.jpg";
+        if (document.getElementById("tom").src == 'https://i.pinimg.com/originals/07/12/41/071241378aaaffe6fc66d60613eeabe2.jpg' &&
+            document.getElementById("jerry").src == 'https://i.pinimg.com/736x/0d/33/db/0d33db1f7c3846f231a99a7fec18dcca.jpg') {
+            document.getElementById("tom").src = "https://i.pinimg.com/736x/0d/33/db/0d33db1f7c3846f231a99a7fec18dcca.jpg";
+            document.getElementById("jerry").src = "https://i.pinimg.com/originals/07/12/41/071241378aaaffe6fc66d60613eeabe2.jpg";
         } else {
-            document.getElementById("car").src = "car.jpg";
-            document.getElementById("minion").src = "minion.png";
+            document.getElementById("tom").src = "https://i.pinimg.com/originals/07/12/41/071241378aaaffe6fc66d60613eeabe2.jpg";
+            document.getElementById("jerry").src = "https://i.pinimg.com/736x/0d/33/db/0d33db1f7c3846f231a99a7fec18dcca.jpg";
         }
     }
 </script>
